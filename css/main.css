@@ -1,0 +1,69 @@
+/* reset */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* propiedades del padre */
+
+.padre{
+    display: grid;
+    /* propiedad para trabajar columnas y propiedad para trabajar filas */
+    grid-template-columns: 150px 350px;
+    grid-template-rows: 200px 400px ;
+}
+
+/* propiedades de los hijos */
+
+.hijoUno{
+    background-color: blueviolet;
+}
+
+.hijoDos{
+    background-color: rgb(96, 63, 126);
+}
+
+.hijoTres{
+    background-color: rgb(62, 16, 104);
+}
+
+.hijoCuatro{
+    background-color: rgb(81, 55, 104);
+}
+/* reset */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* propiedades de los hijos */
+
+.hijoUno{
+    background-color: blueviolet;
+}
+
+.hijoDos{
+    background-color: rgb(96, 63, 126);
+}
+
+.hijoTres{
+    background-color: rgb(62, 16, 104);
+}
+
+.hijoCuatro{
+    background-color: rgb(81, 55, 104);
+}
+
+/* ejemplo dos */
+
+.ejemplo{
+    background-color: coral;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 1fr 1fr ;
+}
